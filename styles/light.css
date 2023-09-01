@@ -21,15 +21,15 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  /* Дублируем переменные светлой темы */    
-  --background-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-  --text-shadow-color: #FF0070;
-  --main-title-color: #FFC2E6;
-  --content-title-color: #353430;
-  --content-subtitle-color: var(--content-title-color);
-  --content-text-color: var(--content-title-color);
-  --decor-zone-color: #353430;
+    /* Дублируем переменные светлой темы */    
+    --background-color: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --text-shadow-color: #FF0070;
+    --main-title-color: #FFC2E6;
+    --content-title-color: #353430;
+    --content-subtitle-color: var(--content-title-color);
+    --content-text-color: var(--content-title-color);
+    --decor-zone-color: #353430;
   }
   .header {
     background-image: url(../images/cover-image-light.png);
