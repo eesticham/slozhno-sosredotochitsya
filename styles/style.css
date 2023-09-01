@@ -73,7 +73,6 @@
 
 .record {
   position: absolute;
-  display: inline-block;
   width: 25px;
   height: 25px;
   top: 20px;
@@ -99,7 +98,6 @@
 }
 
 .record__icon {
-  display: block;
   width: 25px;
   height: 25px;
   box-sizing: border-box;

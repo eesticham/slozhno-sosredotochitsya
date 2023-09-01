@@ -19,10 +19,6 @@
   --decor-zone-color: #353430;
 }
 
-:root {
-
-}
-
 .page.theme_light .header {
   background-image: url(../images/cover-image-light.png);
 }

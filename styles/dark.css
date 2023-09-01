@@ -19,10 +19,6 @@
   --decor-zone-color: #FF0070;
 }
 
-:root {
-  
-}
-
 .page.theme_dark .header {
   background-image: url(../images/cover-image-dark.png);
 }
