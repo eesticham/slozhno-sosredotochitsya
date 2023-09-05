@@ -17,6 +17,8 @@
   --content-subtitle-color: #000028;
   --content-text-color: #F1B2CE;
   --decor-zone-color: #FF0070;
+  
+  background-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,10 +47,6 @@
     background-color: var(--accent-color);
     filter: drop-shadow(0px 0px 4px var(--accent-color));
   }
-}
-
-.page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark .header .record__text {

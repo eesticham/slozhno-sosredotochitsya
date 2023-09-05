@@ -18,6 +18,8 @@
   --content-subtitle-color: var(--content-title-color);
   --content-text-color: var(--content-title-color);
   --decor-zone-color: #353430;
+  
+  background-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -46,10 +48,6 @@
       text-shadow: 4px 4px 0px var(--accent-color);
     }
   }
-}
-
-.page.theme_light {
-  background-image: url(../images/cover-image-light.png);
 }
 
 .page.theme_light .header__theme-menu-button:hover {
