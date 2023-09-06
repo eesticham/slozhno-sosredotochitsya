@@ -3,7 +3,11 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font, monospace);
-  background: var(--background-color, #000028) url(../images/cover-image.png) center fixed / cover;
+  background-color: var(--background-color, #000028);
+  background-image: var(--bg-image, url(../images/cover-image-dark.png));
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .header {
@@ -100,6 +104,8 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
+  background-color: var(--accent-color);
+  filter: drop-shadow(0px 0px 4px var(--accent-color));
 }
 
 .header__theme-menu-list {
@@ -151,7 +157,7 @@
   padding: 3px 14px 5px 14px;
 }
 
-@media screen and (width >= 768px) {
+@media screen and (width >=768px) {
   .header__theme-menu-button {
     padding: 2px 14px 5px 14px;
   }
@@ -580,7 +586,7 @@ button:disabled {
 
 .footer__title {
   color: var(--main-title-color, #DB00FF);
-  text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
+  text-shadow: 2px 2px 0px var(--text-shadow-color, #FF0070);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 
   font-weight: 700;

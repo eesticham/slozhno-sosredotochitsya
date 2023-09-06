@@ -18,8 +18,7 @@
   --content-subtitle-color: var(--content-title-color);
   --content-text-color: var(--content-title-color);
   --decor-zone-color: #353430;
-  
-  background-image: url(../images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -33,19 +32,20 @@
     --content-subtitle-color: #353430;
     --content-text-color: var(--content-title-color);
     --decor-zone-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
   }
 
-  .page {
-    background-image: url(../images/cover-image-light.png);
-  }
-
-  .header .record {
+  .page.theme_auto .header .record {
     display: none;
   }
 
-  @media screen and (width <=768px) {
+  @media screen and (width <1024px) {
     .header__title {
-      text-shadow: 4px 4px 0px var(--accent-color);
+      text-shadow: 4px 4px 0px var(--accent-color, #FF8DCB);
+    }
+
+    .footer__title {
+      text-shadow: 2px 2px 0px var(--accent-color, #FF8DCB);
     }
   }
 }
