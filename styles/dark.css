@@ -13,9 +13,11 @@
   --accent-color: #FF0070;
   --text-shadow-color: #FF0070;
   --main-title-color: #DB00FF;
+  --main-text-color: #000028;
   --content-title-color: #FF0070;
   --content-subtitle-color: #000028;
   --content-text-color: #F1B2CE;
   --decor-zone-color: #FF0070;
   --bg-image: url(../images/cover-image-dark.png);
+  --hover-color: rgba(255, 0, 112, 0.40);
 }

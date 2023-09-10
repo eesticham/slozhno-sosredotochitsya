@@ -165,13 +165,11 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--content-title-color, #FF0070);
-  /* outline-offset: 5px; */
 }
 
 .header__theme-menu-button:hover {
   cursor: pointer;
-  outline: 1px solid rgba(255, 0, 112, 0.40);
-  /* outline-offset: 5px; */
+  outline: 1px solid var(--hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -209,7 +207,7 @@ button:disabled {
 }
 
 .header__text {
-  color: var(--main-text-color);
+  color: var(--main-text-color, #000028);
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
